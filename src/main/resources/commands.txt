@@ -1,0 +1,5 @@
+# Use this command for buildpack to build and upload image to GitHub image repo
+mvn spring-boot:build-image \
+  -DregistryUrl=ghcr.io \
+  -DregistryUsername=<your_github_username> \
+  -DregistryToken=<your_github_token>

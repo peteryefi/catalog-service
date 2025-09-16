@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:18rc1-trixie:///polardb_catalog
